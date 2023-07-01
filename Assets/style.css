@@ -1,0 +1,320 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    caret-color: aqua;
+    background-color: black;
+}
+.header .navbar {
+    display: flex;
+}
+.hr {
+    height: 10px;
+    color: black;
+    background-color: rgb(42, 42, 40);
+    margin-top: 200px;
+    margin-bottom:1px;
+}
+.header .navbar ul li {
+   
+    margin-left: 1300px;
+    list-style-type:none;
+
+    padding-left: 50px;
+    padding-right: 30px;
+    margin-left: 1050px;
+}
+.header .navbar ul li button {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+    
+}
+.header .navbar ul li image {
+    margin-left: 30px;
+}
+.header .header1 {
+    margin-top: 100px;
+    padding-top: 20px;
+}
+.header .header1 .h1 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+}
+.header .header1 .h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.header .header1 .h3 {
+     text-align: center;
+     color: #fff;
+}
+.header .header1 .p {
+    text-align: center;
+
+}
+.header .header1 .p button {
+    width: 200px;
+    height: 55px;
+    background-color: red;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.header .header1 .p button:hover {
+    text-decoration: underline;
+}
+.header .header1 .p input {
+    width: 360px;
+    height: 57px;
+    border: none;
+    margin-bottom:20px ;
+    border-radius: 6px;
+    margin-top: 10px;
+    background-color:rgb(36, 36, 35);
+    color: #fff;
+}
+    ::placeholder {
+        color: #fff;
+        opacity: 1;
+      }
+.main {
+    padding-bottom: 30px;
+}
+.main .div {
+    padding-top: 120px;
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 500px;
+    margin-top: 0px;
+}
+.main .div .h1-1 {
+    font-size: 50px;
+    color: #fff;
+    padding-left: 120px;
+    margin-top: 120px;
+}
+.main .div .p1 {
+    text-align: center;
+    color:#fff;
+}
+.main .div .div1{
+    width: 50%;
+    float: left;
+}
+.main .download {
+
+    margin-bottom: 200px;
+    padding-top: 20px;
+}
+.main .download .div2 .div2-2 {
+    width: 40%;
+    float: left;
+    padding: 2rem 2rem;
+    padding-top: 20px;
+}
+.main .download .div2 .div2-2 .div2-21 .div2-22 .image{
+    width: 30%;
+    float: left;
+}
+.main .profile .profile2 {
+    width: 40%;
+    float: left;
+    padding-bottom: 200px;
+}
+.main .profile .profile2 h1 {
+    font-size: 65px;
+    font-weight: bold;
+    color: #fff;
+}
+.main .profile .profile2 p {
+    font-size: 30px;
+    color: #fff;
+}
+.main .profile .profile2 img {
+    width: 800px;
+    height:600px;
+    margin-left: 120px;
+}
+.main .stream {
+    background-color: aqua;
+}
+.main .stream .stream1 {
+    width: 40%;
+    float: left;
+}
+.main .stream .stream1 .h1 {
+    margin-top: 200px;
+    font-size: 65px;
+    font-weight: bold;
+    color: #fff;
+}
+.main .stream .stream1 .p {
+    font-size: 30px;
+    color: #fff;
+}
+.main .stream .stream1 .img {
+    margin-top: 200px;
+}
+.main .questions {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    
+}
+.main .questions .h1 {
+    font-size: 65px;
+    text-align: center;
+    color: #fff;
+}
+.main .questions .questions1 {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.main .questions .questions1 .questions1-1 {
+    background-color: rgb(19, 30, 30);
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    color: white;
+    border: none;
+    margin-bottom: 2px;
+}
+.main .questions .questions1 .questions1-2 {
+    background-color: rgb(19, 30, 30);
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    color: white;
+    border: none;
+    margin-bottom: 2px;
+}
+.main .questions .questions1 .questions1-3 {
+    background-color: rgb(19, 30, 30);
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    color: white;
+    border: none;
+    margin-bottom: 2px;
+}
+.main .questions .questions1 .questions1-4 {
+    background-color: rgb(19, 30, 30);
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    color: white;
+    border: none;
+    margin-bottom: 2px;
+}
+.main .questions .questions1 .questions1-5 {
+    background-color: rgb(19, 30, 30);
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    color: white;
+    border: none;
+    margin-bottom: 2px;
+}
+.main .questions .questions1 .questions1-6 {
+    background-color: rgb(19, 30, 30);
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    color: white;
+    border: none;
+    margin-bottom: 2px;
+}
+.main .questions .email {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 120px;
+}
+.main .questions .email .email1 {
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+}
+.main .questions .email input  {
+    width: 540px;
+    height: 57px;
+    border: none;
+    margin-bottom: 20px;
+    background-color:rgb(36, 36, 35);
+    color: #000000;
+    margin-right: 0px;
+    border-radius: 6px;
+}
+.main .questions .email button {
+    width: 250px;
+    height: 57px;
+    background-color: red;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    margin-left: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.main .questions .email button:hover {
+    text-decoration: underline;
+}
+.footer .footer1 {
+    width: 40%;
+    float: left;
+    margin-left: 125px;
+    margin-right: 40px;
+    padding-top: 90px;
+}
+.footer .footer1 .footer1-1 {
+    width: 40%;
+    float: left;
+    padding: 2rem 2rem;
+}
+.footer .footer1 .footer1-2 {
+    float: 40%;
+    float: left;
+    
+    padding: 3rem 3rem;
+}
+.footer .footer1 ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: auto;
+}
+.footer .footer1 ul li {
+    list-style-type: none;
+}
+.footer .footer1 ul li a:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width:787px) {
+    .header .navbar{
+        padding: 20px 50px;
+    }
+    .header1 .main .download a{ 
+        min-width: 270px;
+}
+    h1{
+        font-size: small;
+    }
+}
